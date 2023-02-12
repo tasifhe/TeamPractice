@@ -4,5 +4,9 @@ using namespace std;
 int main()
 {
     cout<<"Mahin GAY";
-    return 
+    for(;;)
+    {
+        cout<<"Mahin GAY";
+    }
+    return 0;
 }
