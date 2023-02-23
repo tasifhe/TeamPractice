@@ -9,7 +9,7 @@ int main()
 {
     int n;
     cin >> n;
-    int sum = (n >= 0) ? (n * (n + 1) / 2) : ((n * (1 - n) / 2) + 1);
+    int sum = (n>0? n*(n+1)/2 : 1+n*(1-n)/2);
     cout << sum << endl;
     return 0;
 }
